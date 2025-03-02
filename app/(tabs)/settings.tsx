@@ -1,12 +1,12 @@
 import { View, Text } from "react-native";
 import React from "react";
 
-const index = () => {
+const settings = () => {
   return (
     <View>
-      <Text>tabs index</Text>
+      <Text>tabs settings</Text>
     </View>
   );
 };
 
-export default index;
+export default settings;

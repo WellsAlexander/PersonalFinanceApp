@@ -4,7 +4,7 @@ import React from "react";
 const index = () => {
   return (
     <View>
-      <Text>tabs index</Text>
+      <Text>auth index</Text>
     </View>
   );
 };

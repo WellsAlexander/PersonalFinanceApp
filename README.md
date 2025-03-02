@@ -1,50 +1,70 @@
-# Welcome to your Expo app 👋
+# Personal Finance App - Finchart
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A mobile personal finance tracking application that visualizes your income sources and spending patterns for better money management.
 
-## Get started
+## Purpose
 
-1. Install dependencies
+Finchart was created to help those who struggle with money management by providing intuitive visual representations of financial data. By offering clear graphs and easy-to-understand metrics, this mobile application aims to help users:
 
-   ```bash
-   npm install
-   ```
+- Track where their money is going
+- Identify spending patterns
+- Visualize income sources
+- Discover opportunities to reduce expenses
+- Evaluate if additional income is needed
 
-2. Start the app
+## Features
 
-   ```bash
-    npx expo start
-   ```
+### Income Tracking
 
-In the output, you'll find options to open the app in a
+- Record multiple income sources
+- Categorize income types (salary, freelance, investments, etc.)
+- Track income frequency and patterns
+- Compare income changes over time
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+### Expense Management
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+- Log and categorize all expenses
+- Tag transactions for detailed filtering
 
-## Get a fresh project
+### Visualization Tools
 
-When you're ready, run:
+- Interactive pie charts for spending breakdown
+- Bar graphs for month-to-month comparisons
+- Income vs. expense trend lines
+- Category-specific spending analysis
+- Cash flow diagrams
 
-```bash
-npm run reset-project
-```
+### Financial Insights
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+- Monthly and annual financial summaries
+- Spending category analysis
+- Saving rate calculations
 
-## Learn more
+## Development Status
 
-To learn more about developing your project with Expo, look at the following resources:
+This repository has just been created and is in the early planning stages. More details about the technical implementation, contribution guidelines, and release timeline will be added as development progresses.
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+## Getting Started
 
-## Join the community
+The app is currently in development. Once released:
 
-Join our community of developers creating universal apps.
+1. Download Finchart from the App Store or Google Play Store
+2. Create an account
+3. Configure your personal spending categories
+4. Start entering your financial transactions
+5. Explore the visualization dashboard
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## Data Security
+
+All financial data will be stored locally on your device by default. No sensitive information will be transmitted to external servers unless you explicitly enable cloud backup features.
+
+## Planned Features
+
+- [ ] Automated expense categorization using AI
+- [ ] Receipt scanning functionality
+- [ ] Financial goal setting and tracking
+- [ ] Integration with banking apps for automatic import
+
+## Privacy Policy
+
+A comprehensive privacy policy will be available within the application's settings menu upon release.

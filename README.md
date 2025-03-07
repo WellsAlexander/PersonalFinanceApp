@@ -1,10 +1,10 @@
-# Personal Finance App - Finchart
+# Personal Finance App - FinChart
 
 A mobile personal finance tracking application that visualizes your income sources and spending patterns for better money management.
 
 ## Purpose
 
-Finchart was created to help those who struggle with money management by providing intuitive visual representations of financial data. By offering clear graphs and easy-to-understand metrics, this mobile application aims to help users:
+FinChart was created to help those who struggle with money management by providing intuitive visual representations of financial data. By offering clear graphs and easy-to-understand metrics, this mobile application aims to help users:
 
 - Track where their money is going
 - Identify spending patterns
@@ -48,7 +48,7 @@ This repository has just been created and is in the early planning stages. More 
 
 The app is currently in development. Once released:
 
-1. Download Finchart from the App Store or Google Play Store
+1. Download FinChart from the App Store or Google Play Store
 2. Create an account
 3. Configure your personal spending categories
 4. Start entering your financial transactions

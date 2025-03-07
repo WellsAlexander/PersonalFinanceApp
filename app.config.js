@@ -1,5 +1,7 @@
-module.exports = {
+module.exports = ({ config }) => ({
+  ...config,
   expo: {
+    ...config.expo,
     extra: {
       firebaseApiKey: process.env.FIREBASE_API_KEY,
       firebaseAuthDomain: process.env.FIREBASE_AUTH_DOMAIN,
@@ -9,4 +11,4 @@ module.exports = {
       firebaseAppId: process.env.FIREBASE_APP_ID,
     },
   },
-};
+});

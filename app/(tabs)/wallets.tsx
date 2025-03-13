@@ -1,12 +1,12 @@
 import { View, Text } from "react-native";
 import React from "react";
 
-const settings = () => {
+const wallets = () => {
   return (
     <View>
-      <Text>tabs settings</Text>
+      <Text>wallets</Text>
     </View>
   );
 };
 
-export default settings;
+export default wallets;

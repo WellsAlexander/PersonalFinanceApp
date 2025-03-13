@@ -112,6 +112,7 @@ const styles = StyleSheet.create({
   buttonContainer: {
     marginBottom: 30,
     gap: 15,
+    paddingHorizontal: 20,
   },
   button: {
     borderRadius: 13,

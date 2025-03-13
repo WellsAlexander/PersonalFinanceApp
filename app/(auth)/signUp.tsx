@@ -96,6 +96,7 @@ const SignUp = () => {
               <View style={styles.inputContainer}>
                 <TextInput
                   placeholder="Email"
+                  placeholderTextColor={"#60617D"}
                   value={email}
                   onChangeText={(text) => {
                     setEmail(text);
@@ -113,6 +114,7 @@ const SignUp = () => {
               <View style={styles.inputContainer}>
                 <TextInput
                   placeholder="Password"
+                  placeholderTextColor={"#60617D"}
                   value={password}
                   onChangeText={(text) => {
                     setPassword(text);
@@ -130,6 +132,7 @@ const SignUp = () => {
               <View style={styles.inputContainer}>
                 <TextInput
                   placeholder="Confirm Password"
+                  placeholderTextColor={"#60617D"}
                   value={confirmPassword}
                   onChangeText={(text) => {
                     setConfirmPassword(text);
@@ -160,7 +163,7 @@ const SignUp = () => {
             </View>
 
             <TouchableOpacity
-              onPress={() => router.push("signIn")}
+              onPress={() => router.push("/(auth)/signIn")}
               accessibilityRole="button"
               accessibilityLabel="Sign In button"
             >
@@ -182,12 +185,12 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: "#f5f5f5",
-    padding: 20,
   },
   contentContainer: {
     flex: 1,
     justifyContent: "space-around",
     alignItems: "center",
+    padding: 20,
   },
   logo: {
     fontSize: 40,
@@ -197,7 +200,6 @@ const styles = StyleSheet.create({
   },
   mainContentContainer: {
     width: "100%",
-    padding: 8,
     paddingBottom: 35,
   },
   headerText: {
